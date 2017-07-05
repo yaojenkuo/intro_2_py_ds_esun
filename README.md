@@ -9,7 +9,7 @@ Python 與資料科學入門課程網頁，課程時數 24 小時。
 |日期（彈性）|課程|作業|專題|
 |----------|---|---|---|
 |2017-07-06|[建立開發環境](http://yaojenkuo.io/intro_2_py_ds_esun/chapter0.slides.html)|NA|NA|
-|2017-07-06|[Codecademy Recap](http://yaojenkuo.io/intro_2_py_ds_esun/chapter0.slides.html)|作業|NA|
+|2017-07-06|[Codecademy Recap](http://yaojenkuo.io/intro_2_py_ds_esun/chapter1.slides.html)|作業|NA|
 |2017-07-11|Codecademy Recap（2）|作業|專題|
 |2017-07-20|NumPy 與 SciPy|作業|NA|
 |2017-07-27|Pandas|作業|NA|
