@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+## Python 與資料科學應用
 
-You can use the [editor on GitHub](https://github.com/yaojenkuo/intro_2_py_ds_esun/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Intro
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Python 與資料科學應用課程網頁，課程時數 24 小時。
 
-### Markdown
+### Syllabus
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+|日期（彈性）|課程|作業|專題|
+|----------|---|---|---|
+|2017-07-06|建立開發環境|NA|NA|
+|2017-07-06|Codecademy Recap|作業|NA|
+|2017-07-11|Codecademy Recap（2）|作業|專題|
+|2017-07-20|NumPy 與 SciPy|作業|NA|
+|2017-07-27|Pandas|作業|NA|
+|2017-08-03|視覺化|作業|專題|
+|2017-08-03|機器學習|作業|NA|
+|2017-08-03|機器學習（2）|作業|NA|
+|2017-08-03|機器學習（3）|作業|專題|
 
-```markdown
-Syntax highlighted code block
+### 推薦學習資源/書籍
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yaojenkuo/intro_2_py_ds_esun/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- [Codecademy](https://www.codecademy.com)
+- [Introducing Python](http://shop.oreilly.com/product/0636920028659.do)
+- [Learn Python the Hard Way](https://www.amazon.com/Learn-Python-Hard-Way-Introduction/dp/0321884914)
+- [Python for Data Analysis](http://shop.oreilly.com/product/0636920023784.do)
+- [scikit-learn - Machine Learning in Python](http://scikit-learn.org/stable/)
