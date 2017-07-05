@@ -18,6 +18,12 @@ Python 與資料科學入門課程網頁，課程時數 24 小時。
 |2017-08-17|機器學習（2）|作業|NA|
 |2017-08-24|機器學習（3）|作業|專題|
 
+### Resources
+
+- [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+- [Ubuntu 正體中文站](https://www.ubuntu-tw.org/modules/tinyd0/)
+- [Anaconda](https://www.continuum.io/downloads)
+
 ### References
 
 - [R 語言使用者的 Python 學習筆記 @ iT 邦幫忙](http://ithelp.ithome.com.tw/users/20103511/ironman/1077)
