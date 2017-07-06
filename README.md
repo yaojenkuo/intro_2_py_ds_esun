@@ -24,6 +24,7 @@ Python 與資料科學入門課程網頁，課程時數 24 小時。
 - [Ubuntu 正體中文站](https://www.ubuntu-tw.org/modules/tinyd0/)
 - [Anaconda](https://www.continuum.io/downloads)
 - [InstaCode](http://instacode.live/channel/tony)
+- [VM 映像檔 - zipped](https://drive.google.com/drive/folders/0B1RAmsOPDTw1Wmh6OFM0WnJ0aTA?usp=sharing)
 
 ### References
 
