@@ -23,6 +23,7 @@ Python 與資料科學入門課程網頁，課程時數 24 小時。
 - [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 - [Ubuntu 正體中文站](https://www.ubuntu-tw.org/modules/tinyd0/)
 - [Anaconda](https://www.continuum.io/downloads)
+- [InstaCode](http://instacode.live/channel/tony)
 
 ### References
 
