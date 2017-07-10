@@ -11916,7 +11916,7 @@ range(...)
 <h2 id="&#33258;&#35330;&#20989;&#25976;">&#33258;&#35330;&#20989;&#25976;<a class="anchor-link" href="#&#33258;&#35330;&#20989;&#25976;">&#182;</a></h2><ul>
 <li>自訂函數的撰寫結構：</li>
 </ul>
-<div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">function_name</span><span class="p">(</span><span class="err">輸入</span><span class="mi">1</span><span class="p">,</span> <span class="err">輸入</span><span class="mi">2</span><span class="p">,</span> <span class="err">參數</span> <span class="mi">1</span><span class="p">,</span> <span class="err">參數</span> <span class="mi">2</span><span class="p">,</span> <span class="o">...</span><span class="p">):</span>
+<div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">function_name</span><span class="p">(</span><span class="err">輸入</span><span class="mi">1</span><span class="p">,</span> <span class="err">輸入</span><span class="mi">2</span><span class="p">,</span> <span class="err">參數</span><span class="mi">1</span><span class="p">,</span> <span class="err">參數</span><span class="mi">2</span><span class="p">,</span> <span class="o">...</span><span class="p">):</span>
     <span class="sd">&#39;&#39;&#39;</span>
 <span class="sd">    Docstrings</span>
 <span class="sd">    &#39;&#39;&#39;</span>
@@ -11946,7 +11946,7 @@ range(...)
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">my_squared</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
     <span class="s1">&#39;將輸入的數字平方之後回傳&#39;</span>
-    <span class="k">return</span> <span class="n">x</span> <span class="o">**</span> <span class="mi">2</span>
+    <span class="k">return</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span>
 
 <span class="k">print</span> <span class="n">my_squared</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
 <span class="n">help</span><span class="p">(</span><span class="n">my_squared</span><span class="p">)</span> <span class="c1"># 查詢 my_squared() 函數</span>
@@ -11999,7 +11999,7 @@ my_squared(x)
 <span class="sd">    預設回傳圓面積</span>
 <span class="sd">    &#39;&#39;&#39;</span>
     <span class="k">if</span> <span class="n">is_area</span> <span class="o">==</span> <span class="bp">True</span><span class="p">:</span>
-        <span class="k">return</span> <span class="n">math</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="n">r</span> <span class="o">**</span> <span class="mi">2</span>
+        <span class="k">return</span> <span class="n">math</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="n">r</span><span class="o">**</span><span class="mi">2</span>
     <span class="k">else</span><span class="p">:</span>
         <span class="k">return</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">math</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="n">r</span>
 
@@ -12230,7 +12230,7 @@ $$\bar{x} = \frac{\displaystyle\sum_{i=1}^{n}xi}{n}$$
     <span class="k">except</span><span class="p">:</span>
         <span class="k">return</span> <span class="s2">&quot;請輸入數值。&quot;</span>
 
-<span class="n">my_squared</span><span class="p">(</span><span class="s2">&quot;3&quot;</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">my_squared</span><span class="p">(</span><span class="s2">&quot;3&quot;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12241,13 +12241,11 @@ $$\bar{x} = \frac{\displaystyle\sum_{i=1}^{n}xi}{n}$$
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[7]:</div>
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>&#39;\xe8\xab\x8b\xe8\xbc\xb8\xe5\x85\xa5\xe6\x95\xb8\xe5\x80\xbc\xe3\x80\x82&#39;</pre>
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>請輸入數值。
+</pre>
 </div>
-
 </div>
 
 </div>
@@ -12924,6 +12922,9 @@ stars: [&#39;Jennifer Aniston&#39;, &#39;Courteney Cox&#39;, &#39;Lisa Kudrow&#3
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="&#33258;&#35330;&#39006;&#21029;&#65288;3&#65289;">&#33258;&#35330;&#39006;&#21029;&#65288;3&#65289;<a class="anchor-link" href="#&#33258;&#35330;&#39006;&#21029;&#65288;3&#65289;">&#182;</a></h2><ul>
+<li><code>__init__()</code> 方法稱為建構子或者初始化方法</li>
+<li><code>self</code> 就像是 <code>this</code> 的作用，在使用方法時不需要加入</li>
+<li><code>__doc__</code> 屬性可以看類別說明文件</li>
 <li>建築物（Building）類別有基本屬性為建築物名稱：</li>
 </ul>
 
@@ -12936,6 +12937,9 @@ stars: [&#39;Jennifer Aniston&#39;, &#39;Courteney Cox&#39;, &#39;Lisa Kudrow&#3
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">Building</span><span class="p">():</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    建築物類別</span>
+<span class="sd">    &#39;&#39;&#39;</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
 
@@ -12943,6 +12947,7 @@ stars: [&#39;Jennifer Aniston&#39;, &#39;Courteney Cox&#39;, &#39;Lisa Kudrow&#3
 <span class="n">barrack</span> <span class="o">=</span> <span class="n">Building</span><span class="p">(</span><span class="s2">&quot;軍營&quot;</span><span class="p">)</span>
 <span class="n">monastery</span> <span class="o">=</span> <span class="n">Building</span><span class="p">(</span><span class="s2">&quot;修道院&quot;</span><span class="p">)</span>
 
+<span class="k">print</span> <span class="n">town_center</span><span class="o">.</span><span class="n">__doc__</span>
 <span class="k">print</span> <span class="n">town_center</span><span class="o">.</span><span class="n">name</span>
 <span class="k">print</span> <span class="n">barrack</span><span class="o">.</span><span class="n">name</span>
 <span class="k">print</span> <span class="n">monastery</span><span class="o">.</span><span class="n">name</span>
@@ -12958,7 +12963,10 @@ stars: [&#39;Jennifer Aniston&#39;, &#39;Courteney Cox&#39;, &#39;Lisa Kudrow&#3
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>城鎮中心
+<pre>
+    建築物類別
+    
+城鎮中心
 軍營
 修道院
 </pre>
@@ -12987,6 +12995,9 @@ stars: [&#39;Jennifer Aniston&#39;, &#39;Courteney Cox&#39;, &#39;Lisa Kudrow&#3
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">Building</span><span class="p">():</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    建築物類別</span>
+<span class="sd">    &#39;&#39;&#39;</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">unit</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">unit</span> <span class="o">=</span> <span class="n">unit</span>
@@ -13042,6 +13053,9 @@ stars: [&#39;Jennifer Aniston&#39;, &#39;Courteney Cox&#39;, &#39;Lisa Kudrow&#3
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">Building</span><span class="p">():</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    建築物類別</span>
+<span class="sd">    &#39;&#39;&#39;</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">unit</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">unit</span> <span class="o">=</span> <span class="n">unit</span>
@@ -13050,6 +13064,9 @@ stars: [&#39;Jennifer Aniston&#39;, &#39;Courteney Cox&#39;, &#39;Lisa Kudrow&#3
         <span class="k">return</span> <span class="s2">&quot;</span><span class="si">%s</span><span class="s2">生產</span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">unit</span><span class="p">)</span>
 
 <span class="k">class</span> <span class="nc">Castle</span><span class="p">(</span><span class="n">Building</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    城堡類別</span>
+<span class="sd">    &#39;&#39;&#39;</span>
     <span class="k">pass</span>
 
 <span class="n">castle</span> <span class="o">=</span> <span class="n">Castle</span><span class="p">(</span><span class="s2">&quot;城堡&quot;</span><span class="p">,</span> <span class="s2">&quot;特殊兵種&quot;</span><span class="p">)</span>
@@ -13095,6 +13112,9 @@ stars: [&#39;Jennifer Aniston&#39;, &#39;Courteney Cox&#39;, &#39;Lisa Kudrow&#3
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">Building</span><span class="p">():</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    建築物類別</span>
+<span class="sd">    &#39;&#39;&#39;</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">unit</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">unit</span> <span class="o">=</span> <span class="n">unit</span>
@@ -13103,6 +13123,9 @@ stars: [&#39;Jennifer Aniston&#39;, &#39;Courteney Cox&#39;, &#39;Lisa Kudrow&#3
         <span class="k">return</span> <span class="s2">&quot;</span><span class="si">%s</span><span class="s2">生產</span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">unit</span><span class="p">)</span>
 
 <span class="k">class</span> <span class="nc">Castle</span><span class="p">(</span><span class="n">Building</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    城堡類別</span>
+<span class="sd">    &#39;&#39;&#39;</span>
     <span class="k">def</span> <span class="nf">create</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">return</span> <span class="s2">&quot;</span><span class="si">%s</span><span class="s2">生產</span><span class="si">%s</span><span class="s2">與巨型投石車&quot;</span> <span class="o">%</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">unit</span><span class="p">)</span>
     
@@ -13154,6 +13177,9 @@ stars: [&#39;Jennifer Aniston&#39;, &#39;Courteney Cox&#39;, &#39;Lisa Kudrow&#3
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">Building</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    建築物類別</span>
+<span class="sd">    &#39;&#39;&#39;</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">unit</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">unit</span> <span class="o">=</span> <span class="n">unit</span>
@@ -13162,6 +13188,9 @@ stars: [&#39;Jennifer Aniston&#39;, &#39;Courteney Cox&#39;, &#39;Lisa Kudrow&#3
         <span class="k">return</span> <span class="s2">&quot;</span><span class="si">%s</span><span class="s2">生產</span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">unit</span><span class="p">)</span>
 
 <span class="k">class</span> <span class="nc">Castle</span><span class="p">(</span><span class="n">Building</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    城堡類別</span>
+<span class="sd">    &#39;&#39;&#39;</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">unit</span><span class="p">,</span> <span class="n">siege_unit</span><span class="p">):</span>
         <span class="nb">super</span><span class="p">(</span><span class="n">Castle</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="n">__init__</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">unit</span><span class="p">)</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">siege_unit</span> <span class="o">=</span> <span class="n">siege_unit</span>
