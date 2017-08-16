@@ -13284,6 +13284,18 @@ $$\text{minimize}\quad J(\theta^Tx, y) = -\frac{1}{m}\sum_{i=1}^{m}[y\log(\theta
 </div>
 </div>
 </div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#32645;&#21513;&#26031;&#36852;&#27512;&#65288;11&#65289;">&#32645;&#21513;&#26031;&#36852;&#27512;&#65288;11&#65289;<a class="anchor-link" href="#&#32645;&#21513;&#26031;&#36852;&#27512;&#65288;11&#65289;">&#182;</a></h2><ul>
+<li>延伸二元分類到多元分類問題：One-vs-all</li>
+</ul>
+$$y \in {\{0, 1, 2\}}$$$$h^{0}(x) = P(y = 0 \mid x; \theta)$$$$h^{1}(x) = P(y = 1 \mid x; \theta)$$$$h^{2}(x) = P(y = 2 \mid x; \theta)$$$$\text{prediction:}\;\;max(h^{0}(x), h^{1}(x), h^{2}(x))$$
+</div>
+</div>
+</div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[16]:</div>
@@ -13819,7 +13831,7 @@ iIiIiIhUHHVkRERERESk4qgjIyIiIiIiFef/Adzn5qfLNEY4AAAAAElFTkSuQmCC
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#32645;&#21513;&#26031;&#36852;&#27512;&#65288;11&#65289;">&#32645;&#21513;&#26031;&#36852;&#27512;&#65288;11&#65289;<a class="anchor-link" href="#&#32645;&#21513;&#26031;&#36852;&#27512;&#65288;11&#65289;">&#182;</a></h2><ul>
+<h2 id="&#32645;&#21513;&#26031;&#36852;&#27512;&#65288;12&#65289;">&#32645;&#21513;&#26031;&#36852;&#27512;&#65288;12&#65289;<a class="anchor-link" href="#&#32645;&#21513;&#26031;&#36852;&#27512;&#65288;12&#65289;">&#182;</a></h2><ul>
 <li>請 <code>sklearn</code> 幫我們找 $\theta_i$</li>
 </ul>
 
@@ -14358,7 +14370,7 @@ $$
 </div>
 </div>
 
-</div>
+</div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[25]:</div>
@@ -17660,7 +17672,7 @@ AAAAAElFTkSuQmCC
 <h2 id="&#25972;&#39636;&#23416;&#32722;">&#25972;&#39636;&#23416;&#32722;<a class="anchor-link" href="#&#25972;&#39636;&#23416;&#32722;">&#182;</a></h2><ul>
 <li>將數個分類器的預測結果綜合考慮</li>
 <li>以一題是非題來說，假如我們使用一個銅板來決定答案要填是還是非，答對的機率是 50%</li>
-<li>使用 3 個銅板來決定答案，答對的機率是 $1-(50\%)^3=75\%$，如果銅板的數目來到 5 枚，答對的機率是 $1-(50\%)^5=96.875\%$</li>
+<li>使用 3 個銅板來決定答案，答對的機率是 $1-(50\%)^3=87.5\%$，如果銅板的數目來到 5 枚，答對的機率是 $1-(50\%)^5=96.875\%$</li>
 </ul>
 
 </div>
