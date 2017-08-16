@@ -17254,10 +17254,31 @@ R^2:
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#27491;&#35215;&#21270;">&#27491;&#35215;&#21270;<a class="anchor-link" href="#&#27491;&#35215;&#21270;">&#182;</a></h2><ul>
-<li>Bias vs. Variance</li>
-<li>Under-fitting vs. Over-fitting</li>
-</ul>
+<h2 id="&#27491;&#35215;&#21270;">&#27491;&#35215;&#21270;<a class="anchor-link" href="#&#27491;&#35215;&#21270;">&#182;</a></h2><table>
+<thead><tr>
+<th>Bias</th>
+<th>Variance</th>
+<th>Fitting</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>High</td>
+<td>Low</td>
+<td>Under-fitting</td>
+</tr>
+<tr>
+<td>Medium</td>
+<td>Medium</td>
+<td>Appropriate fitting</td>
+</tr>
+<tr>
+<td>Low</td>
+<td>High</td>
+<td>Over-fitting</td>
+</tr>
+</tbody>
+</table>
 
 </div>
 </div>
@@ -17773,7 +17794,7 @@ REREREREJAJUoIuIiIiIiIhEgAp0ERERERERkQj4f3VIjnzNV08OAAAAAElFTkSuQmCC
 </ul>
 </li>
 </ul>
-$$J(\theta)_{Ridge} = \sum_{i=1}^{m}(\hat{y_i}-y_i)^2 + \alpha \theta^2$$$$J(\theta)_{LASSO} = \sum_{i=1}^{m}(\hat{y_i}-y_i)^2 + \alpha | \theta |$$$$J(\theta)_{ElasticNet} = \sum_{i=1}^{m}(\hat{y_i}-y_i)^2 + \alpha \theta^2 + \alpha | \theta |$$
+$$J(\theta)_{Ridge} = \sum_{i=1}^{m}(\hat{y_i}-y_i)^2 + \lambda \theta^2$$$$J(\theta)_{LASSO} = \sum_{i=1}^{m}(\hat{y_i}-y_i)^2 + \lambda | \theta |$$$$J(\theta)_{ElasticNet} = \sum_{i=1}^{m}(\hat{y_i}-y_i)^2 + \lambda \theta^2 + \lambda | \theta |$$
 </div>
 </div>
 </div></section><section>
