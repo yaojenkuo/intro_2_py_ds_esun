@@ -87,7 +87,7 @@ tf.summary.scalar("Accuracy", accuracy)
 
 # 初始化
 sess.run(tf.global_variables_initializer())
-for i in range(2000):
+for i in range(20000):
     #get new batch
     batch_X, batch_y = next_batch(50, X_train, y_train, 0, 0, X_train.shape[0])
     if i%100 == 0:
