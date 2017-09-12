@@ -18,7 +18,7 @@ Python 與資料科學入門課程網頁，課程時數 24 小時。
 |2017-08-10|[機器學習](http://yaojenkuo.io/intro_2_py_ds_esun/chapter6.slides.html)|[作業](https://github.com/yaojenkuo/intro_2_py_ds_esun/blob/master/hw6/hw6.ipynb)|NA|
 |2017-08-17|[機器學習（2）](http://yaojenkuo.io/intro_2_py_ds_esun/chapter7.slides.html)|[作業](https://github.com/yaojenkuo/intro_2_py_ds_esun/blob/master/hw7/hw7.ipynb)|NA|
 |2017-08-22|[機器學習（3）](http://yaojenkuo.io/intro_2_py_ds_esun/chapter8.slides.html)|NA|專題|
-|2017-09-13|專題分享|NA|NA|
+|2017-09-13|[專題分享](http://yaojenkuo.io/intro_2_py_ds_esun/chapter9.slides.html)|NA|NA|
 
 ### Resources
 
